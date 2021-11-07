@@ -1,0 +1,19 @@
+.preview-themes {
+	position: fixed;
+	height: 2rem;
+	width: 8rem;
+	top: 0;
+	left: calc(50% - 2rem);
+	z-index: 10000;
+}
+.preview-theme {
+	display: block;
+	float: left;
+	width: 1rem;
+	height: 1rem;
+	border: .375rem solid transparent;
+}
+.preview-color-yellow-black {
+	border-color: #ff8b2b;
+	background-color: #000;
+}
